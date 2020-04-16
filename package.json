@@ -2,7 +2,7 @@
   "name": "ecommerce",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
@@ -10,22 +10,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@sendgrid/mail": "^6.4.0",
+    "@sendgrid/mail": "^7.0.1",
     "body-parser": "^1.19.0",
-    "braintree": "^2.16.0",
-    "cookie-parser": "^1.4.4",
+    "braintree": "^2.22.0",
+    "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
-    "dotenv": "^8.0.0",
-    "express": "^4.16.4",
-    "express-jwt": "^5.3.1",
-    "express-validator": "^5.3.1",
-    "formidable": "^1.2.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "express-validator": "^5.3.0",
+    "formidable": "^1.2.2",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
-    "mongoose": "^5.5.5",
-    "morgan": "^1.9.1",
-    "nodemon": "^1.19.0",
-    "uuid": "^3.3.2"
+    "mongoose": "^5.9.9",
+    "morgan": "^1.10.0",
+    "uuid": "^7.0.3"
   }
 }
