@@ -47,8 +47,9 @@ app.use('/api', productRoutes);
 app.use('/api', braintreeRoutes);
 app.use('/api', orderRoutes);
 
-const port = process.env.PORT || 8000;
+app.set( 'port', ( process.env.PORT || 5000 ));
 
-app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
-});
+// Start node server
+app.listen( app.get( 'port' ), function() {
+  console.log( 'Node server is running on port ' + app.get( 'port' ));
+  });
